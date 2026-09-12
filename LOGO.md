@@ -29,3 +29,6 @@ Final prompt: Edit this image. Replace ALL checkerboard background with pure uni
 ## Vivid accent revision
 Current asset: dist/assets/ygt-logo-vivid.png. Built-in ImageGen.
 Prompt: Precise color-only edit of supplied logo. Change ONLY the T fill from muted pale tan copper to a strong saturated burnt orange #D65A16. It must look noticeably richer and more vivid, not pale beige or brown. Uniform solid flat fill, no gradient. Preserve Y and G exactly, including the thick G bottom stroke; preserve all letter shapes, edges, positions, canvas dimensions and white background. No added elements. Exact YGT logo.
+
+## Website size and tone adjustment
+Logo lockup reduced about 8%. Only the T region gets a 1.10 brightness overlay in CSS; original image remains unchanged. Image generation was unavailable due to a usage limit.

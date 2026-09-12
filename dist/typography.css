@@ -87,3 +87,27 @@ header .brand-text{animation:brand-caption .5s .95s both}
 
 /* Blend the white-backed two-tone mark into the light header and footer. */
 .brand .brand-logo{mix-blend-mode:multiply}
+
+/* Slightly smaller lockup; brighten only the T region of the existing mark. */
+.brand-symbol{position:relative;width:144px;height:40px}
+.brand .brand-logo{width:155px;transform:translate(-5.5px,-15.7px)}
+.brand-symbol::after{content:"";position:absolute;inset:0;background:url('assets/ygt-logo-vivid.png') -5.5px -15.7px / 155px auto no-repeat;clip-path:inset(0 0 0 66%);filter:brightness(1.10);pointer-events:none}
+.brand .brand-text{font-size:8.5px;letter-spacing:1.55px}
+@media(max-width:520px){.brand-symbol{width:116px;height:32px}.brand .brand-logo{width:125px;transform:translate(-4.6px,-12.9px)}.brand-symbol::after{background-position:-4.6px -12.9px;background-size:125px auto}.brand .brand-text{font-size:7.5px;letter-spacing:1px}}
+
+/* Quiet contact strip and concise footer. */
+.topbar{background:#25282b;color:#f3f1ed;letter-spacing:.02em}
+.topbar .wrap{align-items:center;gap:16px;padding-block:7px;font-size:12px;min-height:34px}
+.topbar a:hover{color:#f3bb77}
+.site-footer{background:#fff;border-top:1px solid #e4e1da}
+.footer-grid{display:grid;grid-template-columns:1.1fr 1fr 1.2fr;gap:48px;padding-block:42px 35px}
+.footer-brand .brand{display:inline-flex}.footer-brand p{font-size:13px;color:#686b68;margin:15px 0 0}
+.footer-grid h3{font-family:Manrope,sans-serif;font-size:13px;font-weight:600;margin:0 0 13px;color:#25282b}
+.footer-services a{display:block;width:fit-content;padding-block:3px;font-size:14px;color:#555d57}
+.footer-contact address{font-style:normal;font-size:13px;line-height:1.65;color:#686b68;margin:9px 0}
+.footer-phone{font-size:17px;font-weight:600}.footer-directions{font-size:12px;color:#98602c}
+.footer-grid a:hover,.footer-bottom a:hover{text-decoration:underline;text-underline-offset:4px}
+.site-footer .footer-bottom{border-top:1px solid #e1ded7;padding-block:18px 26px;align-items:center;gap:15px;font-size:12px}
+.site-footer .footer-bottom>a{white-space:nowrap}
+@media(max-width:800px){.footer-grid{gap:25px;grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.site-footer .footer-bottom{flex-direction:row;padding-bottom:90px}}
+@media(max-width:520px){.topbar .wrap{justify-content:space-between;font-size:11px;gap:8px}.footer-grid{gap:26px 18px;padding-block:30px}.footer-services a{font-size:13px}.footer-phone{font-size:14px}.footer-contact address{font-size:12px}.site-footer .footer-bottom{align-items:flex-start;font-size:10px}}
