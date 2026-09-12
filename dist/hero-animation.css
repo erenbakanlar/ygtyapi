@@ -1,0 +1,22 @@
+/* Technical perspective lines share the photograph's cover crop. */
+.hero { background:#18241e; }
+.hero .hero-image { object-position:50% 50%; }
+.hero-blueprint { position:absolute; inset:0; pointer-events:none; opacity:0; color:#a6b7a6; }
+.hero-blueprint svg { width:100%; height:100%; display:block; }
+.draft-line { stroke:#d1ddcd; stroke-width:1.6; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.draft-line.structure { stroke:#e6bd80; }
+.draft-line.interior { stroke:#c3cdbf; stroke-width:1.2; }
+.draft-line.detail { stroke:#8ca491; stroke-width:.8; }
+.draft-line.dimensions { stroke:#f0a348; stroke-width:.8; }
+.draft-active .hero-blueprint { animation:draft-dissolve 7s linear both; }
+.draft-active .draft-line { stroke-dasharray:1; stroke-dashoffset:1; animation:draw-perspective 2.4s cubic-bezier(.32,.05,.25,1) var(--line-delay) both; }
+.draft-active .hero-image { animation:room-reveal 7s cubic-bezier(.25,.1,.25,1) both; }
+.draft-active .hero-shade { background:linear-gradient(90deg,rgba(14,23,19,.87),rgba(14,23,19,.38) 60%,rgba(14,23,19,.06)); }
+.hero-motion-control { position:absolute; z-index:2; right:56px; bottom:57px; background:#19251ed9; color:#f2f3ed; border:1px solid #c4cdb650; border-radius:3px; padding:9px 13px; min-height:42px; font-size:12px; letter-spacing:.02em; cursor:pointer; }
+.hero-motion-control:hover { background:#304136; border-color:#edb570; }
+.draft-paused .hero-image,.draft-paused .hero-blueprint,.draft-paused .draft-line { animation-play-state:paused; }
+@keyframes draw-perspective { to { stroke-dashoffset:0; } }
+@keyframes draft-dissolve { 0%,52%{opacity:1} 88%,100%{opacity:0} }
+@keyframes room-reveal { 0%,48%{opacity:0;clip-path:inset(0 100% 0 0)} 82%{opacity:1;clip-path:inset(0)} 100%{opacity:1;clip-path:inset(0)} }
+@media(max-width:800px) { .hero-motion-control{right:20px;bottom:17px;font-size:11px;padding:8px 10px}.hero-bottom{bottom:70px}.hero-blueprint .draft-line{stroke-width:1.1}.hero-blueprint .detail{stroke-width:.65} }
+@media(prefers-reduced-motion:reduce) { .hero-blueprint,.hero-motion-control{display:none!important}.hero .hero-image{animation:none!important;opacity:1;clip-path:none} }
