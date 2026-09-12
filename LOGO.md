@@ -25,3 +25,7 @@ Use case: logo-brand. Create ONE finished premium construction and renovation co
 Current asset: dist/assets/ygt-logo-copper.png. Built-in ImageGen edit. Anthracite YG and matte copper T; G bottom stroke thickened. White background, blended into the light site surface.
 
 Final prompt: Edit this image. Replace ALL checkerboard background with pure uniform flat WHITE #FFFFFF, including enclosed negative space inside G and between all letters. No checkerboard, no texture anywhere. Keep YGT shapes, overall positions and canvas unchanged. Thicken bottom horizontal bar of G upwards substantially so thickness matches left vertical and T stem. Bottom bar should be 150 pixels tall. Y and G solid #25282B; T solid matte copper #B57945. No gradients. No transparency needed, WHITE background. Flat clean vector-like brand asset.
+
+## Vivid accent revision
+Current asset: dist/assets/ygt-logo-vivid.png. Built-in ImageGen.
+Prompt: Precise color-only edit of supplied logo. Change ONLY the T fill from muted pale tan copper to a strong saturated burnt orange #D65A16. It must look noticeably richer and more vivid, not pale beige or brown. Uniform solid flat fill, no gradient. Preserve Y and G exactly, including the thick G bottom stroke; preserve all letter shapes, edges, positions, canvas dimensions and white background. No added elements. Exact YGT logo.
