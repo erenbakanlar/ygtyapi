@@ -111,3 +111,17 @@ header .brand-text{animation:brand-caption .5s .95s both}
 .site-footer .footer-bottom>a{white-space:nowrap}
 @media(max-width:800px){.footer-grid{gap:25px;grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.site-footer .footer-bottom{flex-direction:row;padding-bottom:90px}}
 @media(max-width:520px){.topbar .wrap{justify-content:space-between;font-size:11px;gap:8px}.footer-grid{gap:26px 18px;padding-block:30px}.footer-services a{font-size:13px}.footer-phone{font-size:14px}.footer-contact address{font-size:12px}.site-footer .footer-bottom{align-items:flex-start;font-size:10px}}
+
+/* Small accents echo the warm orange in the YGT mark. */
+:root{--brand-accent:#df7026;--brand-accent-text:#a44c16}
+.shortcut-grid>a{border-left-color:var(--brand-accent)}
+.shortcut-grid>a>span:last-child,.service-details li::before,.service-contact span{color:var(--brand-accent)}
+.shortcut-grid>a:hover{background:#fff5ed;border-color:var(--brand-accent)}
+.nav-cta span,.hero-link span,.dark-button span{color:var(--brand-accent)}
+.card-copy a{border-color:var(--brand-accent)}
+.card-copy a:hover{background:var(--brand-accent);color:#202723}
+.location-section .location-panel{border-left-color:var(--brand-accent)}
+.location-icon,.location-map span,.faq summary span{color:var(--brand-accent)}
+.footer-directions{color:var(--brand-accent-text)}
+.footer-grid a:hover,.footer-bottom a:hover{ text-decoration-color:var(--brand-accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:var(--brand-accent)}
