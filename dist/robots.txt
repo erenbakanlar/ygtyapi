@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ygt-insaat-yapi-emlak.pearly-oasis-8401.chatgpt.site/sitemap.xml
