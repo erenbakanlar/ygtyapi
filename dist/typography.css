@@ -16,3 +16,10 @@ nav{font-size:15px}.hero-link,.button{font-size:15px}
 .brand{font-family:Arial,Helvetica,sans-serif}
 @media(max-width:800px){.hero h1{font-size:44px}.hero p{font-size:17px}.section-heading p{font-size:16px}.steps p{font-size:15px}}
 @media(max-width:520px){.hero h1{font-size:36px;line-height:1.22;letter-spacing:-.035em}.hero p{font-size:16px}.button,.hero-link{font-size:14px}.card-copy h3{font-size:28px}.about h2{font-size:30px}.contact h2{font-size:28px}.steps h3{font-size:16px}}
+
+/* Compact floating WhatsApp contact, with a restrained static glow. */
+.whatsapp{width:58px;height:58px;padding:0;display:grid;place-items:center;border-radius:50%;background:#218b53;border:1px solid #ffffff35;box-shadow:0 4px 16px #143d2926,0 0 18px #25d36638;transition:transform .2s,box-shadow .2s,background .2s}
+.whatsapp>span{display:none}
+.whatsapp svg{width:32px;height:32px}
+.whatsapp:hover{background:#1c7b49;transform:translateY(-2px);box-shadow:0 5px 18px #143d2933,0 0 23px #25d36655}
+@media(max-width:520px){.whatsapp{width:54px;height:54px;padding:0}.whatsapp svg{width:30px;height:30px}}
