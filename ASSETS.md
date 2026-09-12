@@ -1,5 +1,7 @@
 # Görsel kaynakları
 
+- Çatı tadilatı: https://www.pexels.com/photo/handyman-putting-roof-tiles-on-roof-9431615/ — Pexels lisansı; temsili hizmet görseli.
+
 Temsili hizmet görselleri; YGT tarafından tamamlanmış projeler olarak sunulmaz.
 
 - Oturma odası: Max Vakhtbovych, https://www.pexels.com/photo/modern-design-of-a-living-room-6580372/
