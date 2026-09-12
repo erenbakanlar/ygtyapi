@@ -84,3 +84,6 @@ header .brand-text{animation:brand-caption .5s .95s both}
 .proof{margin-bottom:45px;border-top:1px solid var(--line)}
 @media(max-width:800px){.shortcut-grid>a{font-size:14px;padding:10px 12px}.services .service-cards{grid-template-columns:1fr 1fr}.services .text-card{grid-column:1/-1}.services .service-details{grid-template-columns:1fr}.services .service-details ul{display:grid;grid-template-columns:1fr 1fr;gap:0 25px}.services .card-copy h3{font-size:28px}}
 @media(max-width:520px){.service-shortcuts{padding-block:25px}.shortcut-heading{align-items:flex-start;flex-direction:column;gap:9px}.shortcut-heading .eyebrow{font-size:10px}.shortcut-grid{grid-template-columns:1fr 1fr;gap:8px}.shortcut-grid>a{font-size:14px;line-height:1.35;min-height:66px;padding:10px}.shortcut-grid>a:last-child{grid-column:1/-1;min-height:48px}.services.section{padding-block:45px}.services .section-heading h2{font-size:30px}.services .service-cards{grid-template-columns:1fr}.services .service-details article{padding:20px}.services .service-details ul{grid-template-columns:1fr}.services .text-card .card-copy{max-width:80%}.services .text-card .card-copy a{right:-40px}.proof{margin-bottom:30px}}
+
+/* Blend the white-backed two-tone mark into the light header and footer. */
+.brand .brand-logo{mix-blend-mode:multiply}
