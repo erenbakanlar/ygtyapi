@@ -13,12 +13,16 @@ h2,.about h2,.contact h2{letter-spacing:-.025em;line-height:1.25}
 .card-copy p{font-size:15px;line-height:1.55}
 .eyebrow{letter-spacing:1.6px}
 nav{font-size:15px}.hero-link,.button{font-size:15px}
-.brand{font-family:Arial,Helvetica,sans-serif}
-.brand .brand-logo{width:138px;height:64px;object-fit:contain;flex-shrink:0}
-.brand{gap:10px}
-.brand .brand-text{padding-left:12px}
-@media(max-width:1100px){.brand .brand-logo{width:112px;height:54px}.brand .brand-text{font-size:10px;letter-spacing:.7px}.brand .brand-text small{font-size:8px;letter-spacing:1px}}
-@media(max-width:520px){.brand .brand-logo{width:100px;height:46px}.brand{gap:7px}.brand .brand-text{padding-left:9px;font-size:9px}.brand .brand-text small{font-size:7px;letter-spacing:.8px}}
+.brand{font-family:Manrope,Arial,sans-serif;flex-direction:column;align-items:center;gap:6px;flex-shrink:0}
+.brand-symbol{display:block;width:156px;height:43px;overflow:hidden}
+.brand .brand-logo{display:block;width:168px;height:auto;max-width:none;transform:translate(-6px,-17px)}
+.brand .brand-text{padding:0;border:0;font-size:9px;font-weight:600;letter-spacing:1.8px;line-height:1.4;color:#676b6e;white-space:nowrap}
+header .brand-symbol{animation:brand-reveal 1.3s ease-out both}
+header .brand-text{animation:brand-caption .5s .95s both}
+@keyframes brand-reveal{0%{clip-path:inset(0 100% 0 0)}35%{clip-path:inset(0 67% 0 0)}70%{clip-path:inset(0 32% 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes brand-caption{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:520px){.brand-symbol{width:126px;height:35px}.brand .brand-logo{width:136px;transform:translate(-5px,-14px)}.brand .brand-text{font-size:8px;letter-spacing:1.1px}.brand{gap:5px}}
+@media(prefers-reduced-motion:reduce){header .brand-symbol,header .brand-text{animation:none}}
 @media(max-width:800px){.hero h1{font-size:44px}.hero p{font-size:17px}.section-heading p{font-size:16px}.steps p{font-size:15px}}
 @media(max-width:520px){.hero h1{font-size:36px;line-height:1.22;letter-spacing:-.035em}.hero p{font-size:16px}.button,.hero-link{font-size:14px}.card-copy h3{font-size:28px}.about h2{font-size:30px}.contact h2{font-size:28px}.steps h3{font-size:16px}}
 

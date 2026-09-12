@@ -2,6 +2,12 @@
 
 ## Güncel sürüm
 
+Geometrisi sadeleştirilmiş, çatısız antrasit YGT. Dosya: dist/assets/ygt-logo-refined.png. Built-in ImageGen ile mevcut logo referans alınarak düzenlendi. Sitedeki İNŞAAT · YAPI · EMLAK alt yazısı erişilebilir HTML metnidir. Başlıktaki kısa CSS açılış animasyonu azaltılmış hareket tercihinde kapatılır.
+
+Prompt: Use case: logo-brand. Refine the supplied existing YGT monogram into ONE finished modern premium architectural contractor logo. Preserve its recognizable overall YGT identity, substantial weight, horizontal layout and letter readability. Clean up the Y-G junction with a deliberate precise negative-space diagonal, consistent geometric stroke widths, crisp edges, balanced optical spacing and subtly softened corners. Make the G cleaner and architectural, T balanced. Use only solid neutral anthracite #25282B, absolutely no green tint. No roof or other symbols; the user explicitly removed the roof. No gold, orange, gradients, textures, shadows, mockups or additional text. Exact text YGT only. Genuine transparent alpha background. Tight horizontal canvas around the letters with only 4 percent transparent padding on each edge, letters occupy most of the canvas. Flat vector-like logo, professional clean joinery.
+
+## Önceki sürüm
+
 Turuncu çatı kaldırıldı. Güncel dosya: dist/assets/ygt-logo-plain.png. Built-in ImageGen düzenlemesi.
 
 Prompt: Edit this logo: remove the entire orange roof shape above the letters, replacing all orange pixels with fully transparent background. Preserve the existing anthracite YGT letters exactly, including shape, color, proportions, spacing and placement. Do not redesign the lettering. No roof, no orange, no new elements. Keep the same canvas and genuine transparent alpha background. Output only the clean YGT logo.
