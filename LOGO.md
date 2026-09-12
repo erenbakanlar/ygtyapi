@@ -1,5 +1,11 @@
 # YGT logo
 
+## Güncel sürüm
+
+Turuncu çatı kaldırıldı. Güncel dosya: dist/assets/ygt-logo-plain.png. Built-in ImageGen düzenlemesi.
+
+Prompt: Edit this logo: remove the entire orange roof shape above the letters, replacing all orange pixels with fully transparent background. Preserve the existing anthracite YGT letters exactly, including shape, color, proportions, spacing and placement. Do not redesign the lettering. No roof, no orange, no new elements. Keep the same canvas and genuine transparent alpha background. Output only the clean YGT logo.
+
 Built-in ImageGen ile üretildi. Şeffaf zeminli PNG; antrasit YGT monogramı ve turuncu mimari çatı vurgusu.
 
 Dosya: dist/assets/ygt-logo.png
