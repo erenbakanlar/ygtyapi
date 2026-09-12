@@ -1,0 +1,18 @@
+@font-face{font-family:Manrope;src:url('assets/fonts/manrope-500.woff2') format('woff2');font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:Manrope;src:url('assets/fonts/manrope-600.woff2') format('woff2');font-weight:600 800;font-style:normal;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/source-sans-400.woff2') format('woff2');font-weight:400 500;font-style:normal;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/source-sans-600.woff2') format('woff2');font-weight:600 800;font-style:normal;font-display:swap}
+body{font-family:'Source Sans 3','Segoe UI',Arial,sans-serif;line-height:1.65}
+h1,h2,h3,.proof strong,.phone-number{font-family:Manrope,'Segoe UI',Arial,sans-serif}
+em,.hero h1 em,.about h2 em{font-family:inherit;font-style:normal;font-weight:500}
+.hero h1{font-weight:500;font-size:clamp(38px,4.35vw,63px);line-height:1.2;letter-spacing:-.035em}
+h2,.about h2,.contact h2{letter-spacing:-.025em;line-height:1.25}
+.card-copy h3{line-height:1.25;letter-spacing:-.02em}
+.hero p{font-size:18px;line-height:1.75}
+.section-heading p,.service-details p,.steps p,.about-copy p,.contact p,li,details p{font-size:16px;line-height:1.7}
+.card-copy p{font-size:15px;line-height:1.55}
+.eyebrow{letter-spacing:1.6px}
+nav{font-size:15px}.hero-link,.button{font-size:15px}
+.brand{font-family:Arial,Helvetica,sans-serif}
+@media(max-width:800px){.hero h1{font-size:44px}.hero p{font-size:17px}.section-heading p{font-size:16px}.steps p{font-size:15px}}
+@media(max-width:520px){.hero h1{font-size:36px;line-height:1.22;letter-spacing:-.035em}.hero p{font-size:16px}.button,.hero-link{font-size:14px}.card-copy h3{font-size:28px}.about h2{font-size:30px}.contact h2{font-size:28px}.steps h3{font-size:16px}}
