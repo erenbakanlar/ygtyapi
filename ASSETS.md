@@ -9,4 +9,14 @@ Temsili hizmet görselleri; YGT tarafından tamamlanmış projeler olarak sunulm
 - Otel lobisi: Katie Cerami, https://www.pexels.com/photo/interior-design-of-a-hotel-lobby-12284844/
 - Lisans: https://www.pexels.com/license/
 
-WebP kopyaları yerel olarak optimize edilmiştir.
+Hizmet kartları (Eylül 2026, Pexels — temsili görseller):
+
+- Daire tadilatı (banyo): https://www.pexels.com/photo/7005268/ → hizmet-daire.webp
+- Dış cephe & mantolama: https://www.pexels.com/photo/5511085/ → hizmet-cephe.webp
+- Boya & tamirat: https://www.pexels.com/photo/7218579/ → hizmet-boya.webp
+- Elektrik & su tesisatı: https://www.pexels.com/photo/9679179/ → hizmet-tesisat.webp
+- Site tadilatı: https://www.pexels.com/photo/24259314/ → hizmet-site.webp
+- Mimari destek: https://www.pexels.com/photo/9616959/ → hizmet-mimari.webp
+- Tadilat sonrası temizlik: https://www.pexels.com/photo/6195274/ → hizmet-temizlik.webp
+
+WebP kopyaları yerel olarak optimize edilmiştir (16:10 kırpma, 1200px, q78).

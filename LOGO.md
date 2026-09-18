@@ -32,3 +32,29 @@ Prompt: Precise color-only edit of supplied logo. Change ONLY the T fill from mu
 
 ## Website size and tone adjustment
 Logo lockup reduced about 8%. Only the T region gets a 1.10 brightness overlay in CSS; original image remains unchanged. Image generation was unavailable due to a usage limit.
+
+## Yeni kurumsal logo (Eylül 2026)
+
+Müşteri tarafından sağlanan nihai logo: `logo.png` (1080×1350, beyaz zeminli).
+Ev/yapı simgesi içinde YG monogramı, altında YGT, en altta İNŞAAT YAPI|EMLAK.
+
+Beyaz zemin kenarlardan taşma (flood fill) yöntemiyle saydamlaştırıldı; böylece
+harflerin içindeki açık metalik tonlar korundu. Ham parçalar: `logo-parts/`
+(full, mark, text, horizontal).
+
+Sitede kullanılanlar:
+- `dist/assets/ygt-logo-yatay.png` (1200×255) — masaüstü başlık ve footer. Ev simgesi
+  solda, YGT + alt yazı sağda olacak şekilde yeniden kompoze edildi.
+- `dist/assets/ygt-logo-yazi.png` (1000×321) — telefon/tablet başlığı, simgesiz.
+
+Ev simgesi detaylı bir çizim olduğu için 60px'in altında okunmaz bir lekeye dönüşüyor.
+Bu yüzden `<picture>` ile ekrana göre ayırıldı: ≥81px'te simgeli kilit (60px yükseklik),
+≤800px'te simgesiz YGT + alt yazı. Küçültmede yumuşayan kenarlar için hafif
+unsharp mask uygulandı. Eski logo dosyaları (vivid/copper/plain/refined) silindi.
+- `dist/assets/ygt-logo-tam.png` (760×470) — dikey tam kilit, schema.org logo alanı.
+- `dist/assets/ygt-simge.png` (320×199) — yalnız ev simgesi.
+- `dist/assets/favicon.png` (256×256) — kare, ev simgesi ortalı.
+
+Alt yazı artık logonun içinde olduğu için HTML'deki `.brand-text` gizlendi;
+firma adı `<img alt>` üzerinden erişilebilir kalıyor. Eski logonun CSS kırpma /
+mix-blend-mode / parlaklık düzeltmeleri kaldırıldı.
